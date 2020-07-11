@@ -1,11 +1,30 @@
 .App {
   text-align: center;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body,
+html,
+#root {
+  height: 100%;
+  background: linear-gradient(45deg,rgb(120, 206, 233),yellow);
 }
+
+.todo-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+li {
+  text-align: initial;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
